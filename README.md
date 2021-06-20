@@ -1,1 +1,1 @@
-# HEartDieaseClassification
+# HeartDieaseClassification
