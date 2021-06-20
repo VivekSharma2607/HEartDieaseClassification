@@ -17,3 +17,9 @@ Dataset = https://www.kaggle.com/ronitf/heart-disease-uci
   12. ca (number of major vessel colored by flourosopy)
   13. thal (thalium stress result)
   14. target (have disease or not)
+
+
+##Code follows as:
+  1. EDA.py
+  2. Model.py
+  3. Tunning.py
