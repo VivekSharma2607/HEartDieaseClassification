@@ -9,6 +9,13 @@ models = {"Logistic Regression" : LogisticRegression(),
         "Random Forest Classifier" : RandomForestClassifier()}
 #Using a utility function which will traverse through 3 of the algorithm and give us the prediction score
 def check(models, X_train, X_test, y_train, y_test):
+    """
+    This function fits all the model type assigned above then loop through them and tells the best model to use
+    x_train = training data (no labels)
+    x_test = testing data (no labels)
+    y_train = training labels
+    y_test = test labels
+    """
     np.random.seed(42)
     model_scores = {}
     for name, model in models.items():
