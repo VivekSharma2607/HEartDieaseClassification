@@ -23,3 +23,9 @@ Dataset = https://www.kaggle.com/ronitf/heart-disease-uci
   1. EDA.py
   2. Model.py
   3. Tunning.py
+
+
+## Algorithm Used
+  1. Logistic Regression
+  2. K-Nearest neighbours classifier
+  3. Random Forest Classifier
