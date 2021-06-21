@@ -25,8 +25,8 @@ df.info()
 #Checking for missing value
 df.insa().sum()
 df.describe()
-#Count on the basis of Age
-df.sex.value_counts()
+#Heart Disease Frequency according to Sex
+df["sex"]value_counts()
 pd.crosstab(df.target, df.sex)
 pd.crosstab(df.target, df.sex).plot(kind="bar",
                                     figsize=(10, 6),
@@ -37,6 +37,17 @@ plt.xlabel("0 = No Diesease, 1 = Disease")
 plt.ylabel("Amount")
 plt.legend(["Female", "Male"]);
 plt.xticks(rotation=0);
+#Heart Disease per chest type pain
+pd.crosstab(df.cp , df.target)
+# Make the crosstab more visual
+pd.crosstab(df.cp , df.target).plot(kind = "bar" , 
+                                   figsize = (10 , 6),
+                                   color = ["salmon" , "lightblue"])
+plt.title("Heart Disease Frequncy per Chest pain Type")
+plt.xlabel("Chest pain Type")
+plt.ylabel("Amount")
+plt.legend(["No Disease" , "Disease"])
+plt.xticks(rotation = 0);
 #Making a Correlation Matrix
 df.corr()
 corr_matrix = df.corr()
