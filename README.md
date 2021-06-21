@@ -25,7 +25,7 @@ Dataset = https://www.kaggle.com/ronitf/heart-disease-uci
   3. Tunning.py
 
 
-## Algorithm Used
+## Algorithms Used
   1. Logistic Regression
   2. K-Nearest neighbours classifier
   3. Random Forest Classifier
